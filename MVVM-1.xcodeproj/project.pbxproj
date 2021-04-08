@@ -14,6 +14,7 @@
 		355B7378261FC1E000F84D1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 355B7377261FC1E000F84D1E /* Assets.xcassets */; };
 		355B737B261FC1E000F84D1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 355B7379261FC1E000F84D1E /* LaunchScreen.storyboard */; };
 		355B7384261FC2BE00F84D1E /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355B7383261FC2BE00F84D1E /* Profile.swift */; };
+		355B7387261FC4D600F84D1E /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355B7386261FC4D600F84D1E /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		355B737A261FC1E000F84D1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		355B737C261FC1E000F84D1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		355B7383261FC2BE00F84D1E /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		355B7386261FC4D600F84D1E /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				355B7370261FC1DB00F84D1E /* SceneDelegate.swift */,
 				355B7383261FC2BE00F84D1E /* Profile.swift */,
 				355B7372261FC1DB00F84D1E /* ViewController.swift */,
+				355B7386261FC4D600F84D1E /* ViewModel.swift */,
 				355B7374261FC1DB00F84D1E /* Main.storyboard */,
 				355B7377261FC1E000F84D1E /* Assets.xcassets */,
 				355B7379261FC1E000F84D1E /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				355B7387261FC4D600F84D1E /* ViewModel.swift in Sources */,
 				355B7373261FC1DB00F84D1E /* ViewController.swift in Sources */,
 				355B7384261FC2BE00F84D1E /* Profile.swift in Sources */,
 				355B736F261FC1DB00F84D1E /* AppDelegate.swift in Sources */,

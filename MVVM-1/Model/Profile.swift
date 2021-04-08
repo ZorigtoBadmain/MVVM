@@ -8,7 +8,7 @@
 import Foundation
 
 struct Profile {
-    let name: String
-    let secondName: String
-    let age: Int
+    var name: String
+    var secondName: String
+    var age: Int
 }

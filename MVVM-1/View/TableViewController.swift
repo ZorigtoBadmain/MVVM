@@ -16,15 +16,15 @@ class TableViewController: UITableViewController {
         
         viewModel = ViewModel()
     }
-
+    
     // MARK: - Table view data source
-
+    
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
         return viewModel?.numberOfRows() ?? 0
     }
-
-
+    
+    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as? TableViewCell
         
@@ -54,5 +54,5 @@ class TableViewController: UITableViewController {
             }
         }
     }
-
+    
 }

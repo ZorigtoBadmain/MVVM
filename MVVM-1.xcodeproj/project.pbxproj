@@ -22,6 +22,7 @@
 		355B73AA261FDA5400F84D1E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355B73A9261FDA5400F84D1E /* DetailViewController.swift */; };
 		355B73AD261FDAC300F84D1E /* DetailViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355B73AC261FDAC300F84D1E /* DetailViewModelType.swift */; };
 		355B73B0261FDAF200F84D1E /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355B73AF261FDAF200F84D1E /* DetailViewModel.swift */; };
+		355B73B3261FE1B700F84D1E /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355B73B2261FE1B700F84D1E /* Box.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		355B73A9261FDA5400F84D1E /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		355B73AC261FDAC300F84D1E /* DetailViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModelType.swift; sourceTree = "<group>"; };
 		355B73AF261FDAF200F84D1E /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		355B73B2261FE1B700F84D1E /* Box.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Box.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 			isa = PBXGroup;
 			children = (
 				355B736E261FC1DB00F84D1E /* AppDelegate.swift */,
+				355B73B2261FE1B700F84D1E /* Box.swift */,
 				355B7370261FC1DB00F84D1E /* SceneDelegate.swift */,
 				355B7374261FC1DB00F84D1E /* Main.storyboard */,
 				355B739D261FD00A00F84D1E /* ViewModel */,
@@ -202,6 +205,7 @@
 				355B738E261FC82D00F84D1E /* Profile.swift in Sources */,
 				355B738B261FC7EC00F84D1E /* TableViewController.swift in Sources */,
 				355B739B261FCF7F00F84D1E /* TableViewViewModelType.swift in Sources */,
+				355B73B3261FE1B700F84D1E /* Box.swift in Sources */,
 				355B73AD261FDAC300F84D1E /* DetailViewModelType.swift in Sources */,
 				355B73B0261FDAF200F84D1E /* DetailViewModel.swift in Sources */,
 				355B73A7261FD38C00F84D1E /* TableViewCellViewModel.swift in Sources */,
